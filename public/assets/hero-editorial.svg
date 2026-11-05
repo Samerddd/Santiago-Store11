@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 720" fill="none">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="1600" y2="720" gradientUnits="userSpaceOnUse"><stop stop-color="#fff5e9"/><stop offset=".55" stop-color="#f9e4cd"/><stop offset="1" stop-color="#f1cda9"/></linearGradient>
+    <linearGradient id="hoodie" x1="825" y1="150" x2="1195" y2="650" gradientUnits="userSpaceOnUse"><stop stop-color="#28251f"/><stop offset="1" stop-color="#51483d"/></linearGradient>
+    <linearGradient id="shoe" x1="275" y1="490" x2="680" y2="620" gradientUnits="userSpaceOnUse"><stop stop-color="#fffdf9"/><stop offset="1" stop-color="#e8d6c2"/></linearGradient>
+    <filter id="shadow" x="130" y="250" width="1380" height="470" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="24"/></filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" stroke="#fff" stroke-opacity=".28"/></pattern>
+  </defs>
+  <path fill="url(#wall)" d="M0 0h1600v720H0z"/><path fill="url(#grid)" d="M0 0h1600v720H0z"/>
+  <circle cx="1300" cy="180" r="260" fill="#ffb45c" fill-opacity=".22"/><circle cx="275" cy="115" r="125" fill="#fff" fill-opacity=".5"/>
+  <path d="M0 590c226-74 344-72 560-20 244 59 446 75 650 23 151-38 269-39 390-9v136H0V590Z" fill="#e9c8a7" fill-opacity=".42"/>
+  <ellipse cx="824" cy="635" rx="650" ry="48" fill="#704c2e" fill-opacity=".2" filter="url(#shadow)"/>
+  <!-- relaxed-fit hoodie -->
+  <path d="M987 127c-58 0-106 36-127 91l-77 23-83 204c-11 28 7 58 37 61l77 8 27-142 4 278h431l5-278 26 142 77-8c30-3 48-33 37-61l-83-204-77-23c-21-55-69-91-127-91h-147Z" fill="url(#hoodie)"/>
+  <path d="M987 127c12 51 39 77 76 77s64-26 76-77c-29-19-52-27-76-27s-47 8-76 27Z" fill="#655a4d"/>
+  <path d="M1051 177c-1 66-1 119 1 160m42-160c1 66 1 119-1 160" stroke="#918373" stroke-opacity=".6" stroke-width="5"/>
+  <path d="M902 384c42 12 78 17 119 16m80 0c41 1 77-4 119-16" stroke="#8b7d6c" stroke-opacity=".4" stroke-width="3"/>
+  <path d="M1112 522h115v64h-115c-18 0-31-12-31-29v-6c0-17 13-29 31-29Z" fill="#3a352d" stroke="#726657" stroke-width="2"/>
+  <!-- clean low-top sneaker -->
+  <path d="M245 470c41 14 75 37 103 68l56 51c24 22 52 37 84 45l190 47c34 8 58 40 53 75H184c-48 0-78-48-58-91l47-101c14-30 40-48 72-94Z" fill="url(#shoe)" stroke="#9d8063" stroke-width="7"/>
+  <path d="M128 709h603c4 20-11 37-35 37H168c-27 0-43-17-40-37Z" fill="#28251f"/>
+  <path d="m250 478 132 68 103 21 93 38m-308-95 138 65 102 17 106 36m-340-100 145 62 97 13 101 29" stroke="#b48d67" stroke-width="7" stroke-linecap="round"/>
+  <path d="M244 470c-25 10-44 31-62 67m40-51 50 42m-70-19 43 39" stroke="#fff" stroke-opacity=".8" stroke-width="9" stroke-linecap="round"/>
+  <path d="M1260 520h230v12h-230zm-30 28h260v8h-260z" fill="#fff" fill-opacity=".52"/>
+  <text x="1340" y="600" fill="#753e15" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="4">SANTIAGO</text>
+  <text x="1340" y="630" fill="#753e15" font-family="Arial,sans-serif" font-size="14" letter-spacing="5">STORE · 2020</text>
+</svg>
